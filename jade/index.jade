@@ -1,0 +1,65 @@
+extends layout/layout.jade
+
+block infos
+  section.basic_info
+    div.name_title
+      h1 #{name}
+      p.subtitle #{job}
+    
+    div.contact_me
+      h5 #{contact.label}
+      ul
+        each item in contact.items
+          li
+            i(class=['fa', '#{item.icon}'])
+            a(href='#{item.href}', target="_blank") #{ item.value }
+      
+    div.skill_list
+      h5 #{skill.title}
+      each item in skill.items
+        p(class=['skills', '#{item.cls}'])
+          span.skill_label #{ item.title }
+          span.skill_item
+          
+    div.about_me
+      h5 #{about.label}
+      p #{about.desc}
+      
+    div.updated
+      p Last Updated: #{update_time}
+      p 
+        i.fa.fa-code 
+        span &nbsp;&nbsp;on GitHub © 2015
+        
+block experience
+  section.experience
+    div.projects_exper.inner
+      h2 #{projects.title}
+      each item in projects.items
+        div.experience_item
+          h3 #{item.name} 
+            i.time #{item.start_time} ~ #{item.end_time}
+          p.priject_desc #{item.desc}
+          p.project_link
+            a(href="#{item.url}", target="_blank") 在线查看
+          
+    div.skill_desc.inner
+      h2 #{skill.title}
+      each item in skill.items
+        div(class=['skill_box', '#{item.cls}'])
+          h3 #{item.title}
+          p #{item.desc}
+          
+    div.education_exper.inner
+      h2 #{education.title}
+      h3 #{education.school}
+      p #{education.classes}
+      p #{education.honor}
+      p #{education.cet}
+      
+    div.recent_exper.inner
+      h2 #{recent.title}
+      ul
+        li #{recent.one}
+        li #{recent.two}
+        li #{recent.three}

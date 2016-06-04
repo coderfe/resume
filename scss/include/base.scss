@@ -1,0 +1,54 @@
+@import "color.scss";
+
+@font-face {
+  src: url(../fonts/NotoSans-Regular.ttf);
+  font-family: "Noto";
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $primary-text-color;
+  font: normal 14px PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB;
+  line-height: 1.7;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+div {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+a {
+  &:link {
+    color: $primary-color-text;
+    text-decoration: none;
+  }
+  &:hover {
+    color: $primary-color-text;
+  }
+  &:visited {
+    color: $primary-color-text;
+  }
+}
+
+.clearfix {
+  display: tabel;
+  content: '';
+  &:before,
+  &:after {
+    clear: both;
+  }
+}

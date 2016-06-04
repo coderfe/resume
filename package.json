@@ -1,0 +1,36 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Online resume of coderfee",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderfe/resume.git"
+  },
+  "keywords": [
+    "resume",
+    "jade",
+    "material",
+    "coderfee"
+  ],
+  "author": "coderfee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderfe/resume/issues"
+  },
+  "homepage": "https://github.com/coderfe/resume#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.10",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-data": "^1.2.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-jade": "^1.1.0",
+    "gulp-pug": "^3.0.3",
+    "gulp-sass": "^2.3.1",
+    "gulp-scss-lint": "^0.4.0"
+  }
+}
