@@ -30,8 +30,8 @@ html {
     text-align: center;
     h1 {
       margin: 0;
-      padding-top: 1em;
-      font-size: 2.5em;
+      padding-top: 20px;
+      font-size: 32px;
       font-weight: 200;
     }
     .subtitle {
@@ -48,32 +48,41 @@ html {
   .skill_list,
   .about_me,
   .updated {
-    padding: 1em 0;
+    padding: 20px 0;
     margin: 0 10%;
 
     h5 {
-      font-size: 1.2em;
-      margin: 1em 0;
+      font-size: 16px;
+      margin: 20px 0;
     }
   }
   .contact_me {
-    ul {
-      line-height: 2;
-      .fa {
-        margin-right: 5px;
+    li {
+      a {
+        padding-left: 40px;
       }
     }
+
+    @media (min-width: 1024px) {
+      li {
+        a {
+          padding-left: 10px;
+        }
+      }
+    }
+
   }
 }
 
 .skill_list {
   .skills {
     cursor: pointer;
+    margin-bottom: 30px;
     span {
       display: block;
     }
     .skill_label {
-      font-size: .8em;
+      font-size: 12px;
       margin-bottom: 3px;
     }
     .skill_item {
@@ -197,16 +206,17 @@ html {
   .projects_exper {
     .experience_item {
       .time {
-        font-size: .6em;
+        font-size: 12px;
         color: $secondary-text-color;
       }
       .project_link {
         a {
           display: inline-block;
-          width: 6em;
-          height: 2.5em;
+          min-width: 64px;
+          padding: 0 20px;
+          height: 36px;
           text-align: center;
-          line-height: 2.5em;
+          line-height: 36px;
           color: $accent-color;
           transition: all .2s ease-out;
           &:hover {
@@ -222,7 +232,7 @@ html {
 
 .recent_exper {
   ul {
-    margin-left: 2em;
+    margin-left: 30px;
     li {
       list-style: circle;
     }
@@ -233,20 +243,27 @@ html {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 50px;
-  height: 50px;
+  width: 120px;
+  height: 120px;
   border: none;
   border-radius: 50%;
-  font-size: 2em;
+  font-size: 64px;
+  line-height: 120px;
   text-align: center;
   color: #fff;
   background-color: $accent-color;
   box-shadow: 0 3px 3px rgba(0, 0, 0, .36);
   cursor: pointer;
+  @media (min-width: 1024px) {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+  }
 }
 
 footer {
-  padding: 1em 0;
+  padding: 14px 0;
   text-align: center;
   color: $primary-color-text;
   background-color: $primary-color;

@@ -1,21 +1,20 @@
 @import "color.scss";
 
-@font-face {
-  src: url(../fonts/NotoSans-Regular.ttf);
-  font-family: "Noto";
-  font-weight: normal;
-}
-
 body {
   margin: 0;
   padding: 0;
   color: $primary-text-color;
   font: normal 14px PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB;
   line-height: 1.7;
+  @media (min-width: 1024px) {
+    font-size: 16px;
+    font-weight: lighter;
+  }
 }
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+  font-weight: 200;
 }
 div {
   box-sizing: border-box;
