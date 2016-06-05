@@ -49,3 +49,12 @@ gulp.task('browserSync', ['scss', 'jade'], function() {
 //     .pipe(ghPages());
 // });
 gulp.task('default', ['browserSync', 'scss', 'jade']);
+
+
+// marked to html
+var imagemin = require('gulp-imagemin');
+gulp.task('img', function() {
+    return gulp.src('./download/icon/*.svg')
+      .pipe(imagemin())
+      .pipe(gulp.dest('./download/icons/'));
+});
