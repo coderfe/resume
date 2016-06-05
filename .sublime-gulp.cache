@@ -1,1 +1,0 @@
-{"E:\\System\\DeskTop\\resume\\gulpfile.js": {"sha1": "a1e478b3af8905d138e29de2f1ecc03d2b6b8163", "tasks": {"default": {"dependencies": "", "name": "default"}, "scss": {"dependencies": "", "name": "scss"}, "jade": {"dependencies": "", "name": "jade"}, "browserSync": {"dependencies": "", "name": "browserSync"}}}}
