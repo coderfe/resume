@@ -4,6 +4,9 @@
   "name": "陈东东",
   "git_repo": "https://gitub.com/coderfe/resume.git",
   "job": "Web前端开发",
+  "ga": {
+    "id": "UA-76203484-2"
+  },  
   "contact": {
     "label": "联系我",
     "items": [
