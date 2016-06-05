@@ -24,13 +24,17 @@
   "homepage": "https://github.com/coderfe/resume#readme",
   "devDependencies": {
     "browser-sync": "^2.12.10",
-    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-data": "^1.2.1",
     "gulp-gh-pages": "^0.5.4",
     "gulp-jade": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
     "gulp-pug": "^3.0.3",
     "gulp-sass": "^2.3.1",
     "gulp-scss-lint": "^0.4.0"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "postcss": "^5.0.21"
   }
 }

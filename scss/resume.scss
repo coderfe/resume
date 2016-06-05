@@ -59,15 +59,7 @@ html {
   .contact_me {
     li {
       a {
-        padding-left: 40px;
-      }
-    }
-
-    @media (min-width: 1024px) {
-      li {
-        a {
-          padding-left: 10px;
-        }
+        padding-left: 10px;
       }
     }
 
@@ -243,23 +235,17 @@ html {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  width: 120px;
-  height: 120px;
+  width: 50px;
+  height: 50px;
   border: none;
   border-radius: 50%;
-  font-size: 64px;
-  line-height: 120px;
+  font-size: 26px;
+  line-height: 50px;
   text-align: center;
   color: #fff;
   background-color: $accent-color;
   box-shadow: 0 3px 3px rgba(0, 0, 0, .36);
   cursor: pointer;
-  @media (min-width: 1024px) {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 26px;
-  }
 }
 
 footer {
