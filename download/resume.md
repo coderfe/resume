@@ -1,4 +1,4 @@
-# 陈东东——` Web 前端开发`
+# 陈东东——`Web前端开发`
 
 | ![phone:](icons/phone.svg)15515099287    | ![email:](icons/mail.svg)coderfee@outlook.com |
 | ---------------------------------------- | ---------------------------------------- |
@@ -7,15 +7,20 @@
 ### ![Skills](icons/skill.svg)前端技能
 
 - **HTML / Jade / Markdown**
-  - 能够熟练运用 HTML / Jade 完成复杂的页面布局，了解 HTML5 的相关标准和使用。熟悉 Markdown 的语法，能够编写良好的技术文档。
+  - 能够熟练运用 HTML / Jade 完成复杂的页面布局，了解 HTML5 的相关标准和使用。
+  - 熟悉 Markdown 的语法，能够编写良好的技术文档。
 - **CSS / SCSS / Bootstrap**
-  - 能够运用 CSS 完成动画效果，提高用户体验，并处理各浏览器间常见的兼容性问题。熟悉 Bootstrap 的使用，能够借助其快速搭建站点。
+  - 能够运用 CSS 完成动画效果，提高用户体验，并处理各浏览器间常见的兼容性问题。
+  - 熟悉 Bootstrap 的使用，能够借助其快速搭建站点。
 - **Javascript / jQuery / React**
-  - 熟悉原生 DOM 和 BOM 操作，能够编写常用的组件和交互效果。了解 Canvas 相关标准和使用。目前正在学习 React 框架。
+  - 熟悉原生 DOM 和 BOM 操作，能够编写常用的组件和交互效果。
+  - 了解 Canvas 相关标准和使用。
+  - 目前正在学习 React 框架。
 - **Gulp / npm / Yeoman**
   - 熟悉 npm / Bower / Yeoman 等在项目中的应用，能够借助 Gulp 简化开发流程，大幅提高开发效率。
 - **Webstorm / Sublime / PS / Atom**
-  - 最常使用的开发环境：Windows + Chrome + Sublime Text + Webstorm 。熟练掌握的开发工具：VS Code, Atom, Firebug, Chrome Dev Tool 。能够在 Photoshop 中完成基本的开发与设计。
+  - 最常使用的开发环境：Windows + Chrome + Sublime Text + Webstorm 。熟练掌握的开发工具：VS Code, Atom, Firebug, Chrome Dev Tool 。
+  - 能够在 Photoshop 中完成基本的开发与设计。
 - **Linux / Ubuntu / Vim**
   - 有1年的 Ubuntu 使用经验，熟悉 Linux 开发环境。
 - **Git / GitHub**
@@ -47,4 +52,4 @@
 
 ### ![Last](icons/other.svg)最后
 
-感谢您的查看，期待与您一起工作！
+感谢您的耐心查看，期待有机会与您一起工作！
