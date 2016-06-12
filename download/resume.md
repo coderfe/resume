@@ -19,7 +19,7 @@
   - 掌握了基本的 Ajax 和 JSON 的相关知识。
   - 了解 Canvas 相关标准和使用。
   - 目前正在学习 React 框架。
-  
+
 - **Gulp / npm / Yeoman**
   - 熟悉 npm / Bower / Yeoman 等在项目中的应用。
   - 能够借助 Gulp 简化开发流程，大幅提高开发效率。
@@ -38,7 +38,7 @@
 ### ![Projects](icons/project.svg)项目经历
 
 - **个人博客**——http://coderfe.cn/
-  - 利用基于 Nodejs 的 Hexo 博客框架搭建的静态博客，部署在 GitHub Pages 上，利用七牛云存储图片等静态资源，并且绑定了独立域名 coderfe.cn 。
+  - 利用基于 Nodejs 的 Hexo 博客框架搭建的静态博客，部署在 GitHub Pages 上，利用七牛云存储图片等静态资源，并且绑定了独立域名 `coderfe.cn` 。
 
 - **在线简历**——http://coderfee.me/
   - 这份在线简历从 JSON 读取数据，使用 Jade 模板渲染 HTML ，PostCSS / SCSS 生成响应式样式， 使用 gulp 生成页面、架设本地服务器进行测试、优化合并代码，最后部署到 GitHub Pages 。
