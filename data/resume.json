@@ -57,7 +57,7 @@
       },
       {
         "cls": "js",
-        "title": "Javascript / jQuery / React",
+        "title": "Javascript / jQuery",
         "desc": "熟悉原生 DOM 和 BOM 操作，能够编写常用的组件和交互效果。了解 Canvas 相关标准和使用。目前正在学习 React 框架。"
       },
       {
@@ -129,5 +129,5 @@
     "two": "读书——《CSS揭秘》",
     "three": "找一份前端方面的工作"
   },
-  "update_time": "2016-07-04"
+  "update_time": "2016-07-08"
 }
