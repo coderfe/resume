@@ -115,7 +115,7 @@
         "start_time": 2015,
         "end_time": "至今",
         "url": "http://coderfee.me",
-        "desc": "这份在线简历从 JSON 读取数据，使用 Jade 模板生成 HTML ，SCSS 生成响应式样式, 使用 Gulp 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages。"
+        "desc": "这份在线简历从 JSON 读取数据，使用 Jade 模板生成 HTML ，SCSS 生成响应式样式, 使用 Gulp 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages 。"
       }
     ]
   },
@@ -129,5 +129,5 @@
     "two": "读书——《CSS揭秘》",
     "three": "找一份前端方面的工作"
   },
-  "update_time": "2016-07-08"
+  "update_time": "2016-07-09"
 }
