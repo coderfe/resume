@@ -62,8 +62,8 @@ Get data from a `resume.json` and generate the static web page. Deploy to GitHub
 
 ### TODO
 
-- [ x ] Update resume.pdf
-- [ x ] Update readme
+- [x] Update resume.pdf
+- [x] Update readme
 - [ ] Imporve details
 - [ ] Mobile experience
 
