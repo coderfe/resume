@@ -108,7 +108,7 @@
         "start_time": 2015,
         "end_time": "至今",
         "url": "http://coderfe.cn",
-        "desc": "利用基于 Nodejs 的 Hexo 博客框架搭建的静态博客，部署在 GitHub Pages 上，使用 Travis CI 持续集成，利用**七牛云**作为图床，同时绑定了独立域名 coderfe.cn 。"
+        "desc": "利用基于 Nodejs 的 Hexo 博客框架搭建的静态博客，部署在 GitHub Pages 上，使用 Travis CI 持续集成，利用七牛云作为图床，同时绑定了独立域名 coderfe.cn 。"
       },
       {
         "name": "在线简历",
