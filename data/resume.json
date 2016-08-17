@@ -52,33 +52,33 @@
       },
       {
         "cls": "css",
-        "title": "CSS / SCSS / Bootstrap",
-        "desc": "能够运用 CSS 完成动画效果，提高用户体验，并处理各浏览器间常见的兼容性问题。熟悉 Bootstrap 的使用，能够借助其快速搭建站点。"
+        "title": "CSS / SCSS / PostCSS / Bootstrap",
+        "desc": "能够运用 CSS 完成动画效果，提高用户体验，并处理各浏览器间常见的兼容性问题。熟悉 Bootstrap 的使用，能够借助它快速搭建站点。"
       },
       {
         "cls": "js",
         "title": "Javascript / jQuery",
-        "desc": "熟悉原生 DOM 和 BOM 操作，能够编写常用的组件和交互效果。了解 Canvas 相关标准和使用。目前正在学习 React 框架。"
+        "desc": "熟悉原生 DOM 和 BOM 操作，能够编写常用的组件和交互效果。了解 Canvas 相关标准和使用。目前正在学习 React 框架。可以熟练使用 jQuery ！"
       },
       {
         "cls": "npm",
         "title": "npm / Gulp",
-        "desc": "熟悉 npm / Bower / Yeoman 等在项目中的应用，能够借助 Gulp 简化开发流程，大幅提高开发效率。"
+        "desc": "熟悉 npm / Bower / Yeoman 等在项目中的应用，能够借助 Gulp 简化开发流程，提高开发效率。"
       },
       {
         "cls": "editor",
-        "title": "Atom / Webstorm / Sublime / PS",
-        "desc": "最常使用的开发环境：Windows + Chrome + Sublime Text + Webstorm 。熟练掌握的开发工具：VS Code, Atom, Firebug, Chrome Dev Tool 。能够在 Photoshop 中完成基本的开发与设计。"
+        "title": "Atom / Webstorm / VSCode / PS",
+        "desc": "最常使用的开发环境：Windows + Chrome + VSCode + Webstorm 。熟练掌握的开发工具：SublimeText, Atom, Firebug, Chrome Dev Tool 。能够在 Photoshop 中完成基本的开发与设计。"
       },
       {
         "cls": "linux",
-        "title": "Linux/ Ubuntu / Vim",
-        "desc": "有1年的 Ubuntu 使用经验，熟悉 Linux 开发环境。"
+        "title": "Linux / Ubuntu",
+        "desc": "有1年的 Ubuntu 使用经验，熟悉 Linux 命令行开发环境。"
       },
       {
         "cls": "git",
         "title": "Git / GitHub",
-        "desc": "熟悉 Git 命令行的使用，平常做的项目放在 GitHub 。"
+        "desc": "熟悉 Git 命令行的使用，平常做的项目放在 GitHub ，能够使用 Github 提高开发效率。"
       }
     ]
   },
@@ -96,7 +96,7 @@
     {
       "type": "English",
       "CA": "CET-4",
-      "desc": "能够读懂英文文档和其他相关资料,经常订阅 Weekly 邮件列表，能够在 Stack Overflow 等社区进行基本的交流。"
+      "desc": "能够阅读并理解英文文档和其他相关资料，经常订阅 Weekly 邮件列表，能够在 Stack Overflow 等社区进行基本的交流。"
     }
   ],
   "projects": {
@@ -108,14 +108,14 @@
         "start_time": 2015,
         "end_time": "至今",
         "url": "http://coderfe.cn",
-        "desc": "利用基于 Nodejs 的 Hexo 博客框架搭建的静态博客，部署在 GitHub Pages 上，利用七牛云存储图片等静态资源，并且绑定了独立域名 coderfe.cn 。"
+        "desc": "利用基于 Nodejs 的 Hexo 博客框架搭建的静态博客，部署在 GitHub Pages 上，使用 Travis CI 持续集成，利用**七牛云**作为图床，同时绑定了独立域名 coderfe.cn 。"
       },
       {
         "name": "在线简历",
         "start_time": 2015,
         "end_time": "至今",
         "url": "http://coderfee.me",
-        "desc": "这份在线简历从 JSON 读取数据，使用 Jade 模板生成 HTML ，SCSS 生成响应式样式, 使用 Gulp 驱动页面生成、架设本地服务器、帮助部署到 GitHub Pages 。"
+        "desc": "这份在线简历从 JSON 读取数据，使用 Jade 模板引擎生成 HTML ，SCSS / PostCSS 生成跨浏览器的 CSS 样式, 使用 Gulp 驱动页面生成、架设本地预览服务器、帮助部署到 GitHub Pages 。"
       }
     ]
   },
@@ -126,7 +126,7 @@
   "recent": {
     "title": "最近正在经历的",
     "one": "学习 React 和 Linux",
-    "two": "读书——《CSS揭秘》"
+    "two": "学习 Python"
   },
-  "update_time": "2016-07-20"
+  "update_time": "2016-08-17"
 }
